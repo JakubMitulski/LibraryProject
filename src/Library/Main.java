@@ -7,9 +7,13 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        mainMenu();
+    }
+
+    private static void mainMenu() {
+        List<Book> dataBase = new ArrayList<>();
         boolean canContinue = true;
         Scanner userInput = new Scanner(System.in);
-        List<Book> dataBase = new ArrayList<>();
         do {
             System.out.println("\n Choose the option: 1 - new item; 2 - remove item; 3 - search item; 4 - print list; 5 - change status; 6 - exit");
 
@@ -38,22 +42,21 @@ public class Main {
         } while (canContinue);
     }
 
-
-    public static void printWarning() {
+    private static void printWarning() {
         System.out.println("Sorry, but your database is empty - add some book first");
     }
 
-    public static Book searchItem(List<Book> list) {
+    private static Book searchItem(List<Book> list) {
         Scanner sc = new Scanner(System.in);
         Book result = null;
 
         if (!list.isEmpty()) {
             System.out.println("Type a title: ");
             String searchedTitle = sc.nextLine();
-            for (int i = 0; i < list.size(); i++) {
-                String title = list.get(i).getTitle();
+            for (Book aList : list) {
+                String title = aList.getTitle();
                 if (title.equals(searchedTitle)) {
-                    result = list.get(i);
+                    result = aList;
                     System.out.println(result);
                 } else {
                     System.out.println("Sorry, cannot find item: " + searchedTitle);
@@ -65,7 +68,7 @@ public class Main {
         return result;
     }
 
-    public static void removeItem(List<Book> list) {
+    private static void removeItem(List<Book> list) {
         Scanner sc = new Scanner(System.in);
         if (!list.isEmpty()) {
             System.out.println("Type a title to remove: ");
@@ -81,18 +84,17 @@ public class Main {
         }
     }
 
-    public static List printList(List<Book> list) {
+    private static List printList(List<Book> list) {
         if (!list.isEmpty()) {
             System.out.println("Here is your list: ");
             for (Object index : list) {
                 System.out.println(index);
             }
-        } else {
         }
         return list;
     }
 
-    public static void addItem(List<Book> list) {
+    private static void addItem(List<Book> list) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Type book's title: ");
@@ -109,7 +111,7 @@ public class Main {
         System.out.println("Item: " + newItem + " - has been added");
     }
 
-    public static void changeStatus(List<Book> list) {
+    private static void changeStatus(List<Book> list) {
         try {
             Book book = searchItem(list);
             Integer amount = book.getAmount();
@@ -131,8 +133,9 @@ public class Main {
             }
             System.out.println(book);
         } catch (java.lang.NullPointerException e) {
+            mainMenu();
         }
     }
-    
+
 
 }
