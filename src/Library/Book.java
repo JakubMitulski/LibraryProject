@@ -1,6 +1,8 @@
 package Library;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable {
 
     private Author author;
     private String title;

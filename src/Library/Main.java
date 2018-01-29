@@ -1,19 +1,23 @@
 package Library;
-
-import java.util.ArrayList;
+import java.io.*;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
         mainMenu();
     }
 
-    private static void mainMenu() {
-        List<Book> dataBase = new ArrayList<>();
+    private static void mainMenu() throws IOException, ClassNotFoundException {
+        FileInputStream fis = new FileInputStream("bookList.txt");
+        ObjectInputStream ois = new ObjectInputStream(fis);
+        LinkedList<Book> dataBase = (LinkedList<Book>) ois.readObject();
+        ois.close();
         boolean canContinue = true;
         Scanner userInput = new Scanner(System.in);
+
         do {
             System.out.println("\n Choose the option: 1 - new item; 2 - remove item; 3 - search item; 4 - print list; 5 - change status; 6 - exit");
 
@@ -84,17 +88,16 @@ public class Main {
         }
     }
 
-    private static List printList(List<Book> list) {
+    private static void printList(List<Book> list) {
         if (!list.isEmpty()) {
             System.out.println("Here is your list: ");
-            for (Object index : list) {
+            for (Book index : list) {
                 System.out.println(index);
             }
         }
-        return list;
     }
 
-    private static void addItem(List<Book> list) {
+    private static void addItem(List<Book> list) throws IOException {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Type book's title: ");
@@ -109,9 +112,11 @@ public class Main {
         Book newItem = new Book(title, firstName, lastName, amount);
         list.add(newItem);
         System.out.println("Item: " + newItem + " - has been added");
+
+        saveList(list);
     }
 
-    private static void changeStatus(List<Book> list) {
+    private static void changeStatus(List<Book> list) throws IOException, ClassNotFoundException {
         try {
             Book book = searchItem(list);
             Integer amount = book.getAmount();
@@ -137,5 +142,12 @@ public class Main {
         }
     }
 
+    private static void saveList(List<Book> list) throws IOException {
+        FileOutputStream fout = new FileOutputStream ("bookList.txt");
+        ObjectOutputStream oos  = new ObjectOutputStream(fout);
+        oos.writeObject(list);
+        fout.close();
+    }
 
 }
+
