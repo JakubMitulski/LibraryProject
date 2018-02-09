@@ -2,24 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d7dc8c9-cf4a-43d6-8360-3354267745aa" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/Action.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/AddBookAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/AddUserAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/BorrowOrReturnAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/PrintBooksBaseAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/RemoveBookAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/SaveBooksBaseAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/SaveUsersBaseAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/SearchBookAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/actions/SearchUserAction.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/other/Author.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/other/Book.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/other/FileCreator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/other/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Library/other/searchBook.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Homework.iml" afterPath="$PROJECT_DIR$/Homework.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/Action.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/Action.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/AddBookAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/AddBookAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/AddUserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/AddUserAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/BorrowOrReturnAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/BorrowOrReturnAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/PrintBooksBaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/PrintBooksBaseAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/RemoveBookAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/RemoveBookAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/SaveBooksBaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/SaveBooksBaseAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/SaveUsersBaseAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/SaveUsersBaseAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/SearchBookAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/SearchBookAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/actions/SearchUserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/actions/SearchUserAction.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/other/Author.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/other/Author.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/other/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/other/Book.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/other/FileCreator.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/other/FileCreator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/other/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/other/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library/other/searchBook.java" afterPath="$PROJECT_DIR$/src/main/java/com/library/other/searchBook.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,102 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SaveUsersBaseAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/SaveUsersBaseAction.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/library/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SaveBooksBaseAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/SaveBooksBaseAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BorrowOrReturnAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/BorrowOrReturnAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchUserAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/SearchUserAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Action.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/Action.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/other/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddBookAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/AddBookAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddUserAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/AddUserAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchBook.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Library/other/searchBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="-57">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +61,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Library/other/searchBook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Library/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/library/Main.java" />
       </list>
     </option>
   </component>
@@ -221,7 +137,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,6 +174,25 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.library.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.library.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Homework" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -333,6 +268,11 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -348,7 +288,7 @@
       <option name="presentableId" value="Default" />
       <updated>1518128741310</updated>
       <workItem from="1518128742629" duration="25000" />
-      <workItem from="1518200544375" duration="360000" />
+      <workItem from="1518200544375" duration="1132000" />
     </task>
     <task id="LOCAL-00001" summary="New plugin - Maven">
       <created>1518200742934</created>
@@ -357,23 +297,31 @@
       <option name="project" value="LOCAL" />
       <updated>1518200742934</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="General change of the project structure according to design patterns.">
+      <created>1518200990548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518200990548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385000" />
+    <option name="totallyTimeSpent" value="1157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -402,14 +350,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New plugin - Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="New plugin - Maven" />
+    <MESSAGE value="General change of the project structure according to design patterns." />
+    <option name="LAST_COMMIT_MESSAGE" value="General change of the project structure according to design patterns." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -425,7 +374,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/SaveUsersBaseAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/SaveUsersBaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -433,7 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/SaveBooksBaseAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/SaveBooksBaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -441,7 +390,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/BorrowOrReturnAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/BorrowOrReturnAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -449,7 +398,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/SearchUserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/SearchUserAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -457,15 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/Action.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/Action.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -473,7 +414,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/other/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/other/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -481,7 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/AddBookAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/AddBookAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -489,7 +430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/actions/AddUserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/actions/AddUserAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -497,11 +438,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Library/other/searchBook.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/other/searchBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/library/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package Library.other;
+package com.library.other;
 
 import java.io.File;
 import java.io.IOException;
