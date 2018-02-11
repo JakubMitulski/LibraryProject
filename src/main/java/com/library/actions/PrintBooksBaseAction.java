@@ -1,8 +1,8 @@
 package com.library.actions;
 
 
-import com.library.other.Book;
-import com.library.other.User;
+import com.library.common.Book;
+import com.library.common.User;
 
 import java.util.List;
 

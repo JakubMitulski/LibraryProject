@@ -1,9 +1,9 @@
 package com.library;
 
 
-import com.library.other.Book;
-import com.library.other.FileCreator;
-import com.library.other.User;
+import com.library.common.Book;
+import com.library.common.FileCreator;
+import com.library.common.User;
 import com.library.actions.*;
 
 import java.io.FileInputStream;
