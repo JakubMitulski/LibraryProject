@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class FileCreator {
 
-   public void createFile (String fileName) {
+    public void createFile(String fileName) {
 
         try {
             File file = new File(fileName);
@@ -17,4 +17,3 @@ public class FileCreator {
         }
     }
 }
-//

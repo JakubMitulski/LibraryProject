@@ -1,5 +1,6 @@
-package com.library.actions;
+package com.library.actions.book;
 
+import com.library.actions.Action;
 import com.library.common.Book;
 import com.library.common.User;
 
@@ -30,6 +31,4 @@ public class AddBookAction implements Action {
             System.out.println("Wrong input!");
         }
     }
-
 }
-//

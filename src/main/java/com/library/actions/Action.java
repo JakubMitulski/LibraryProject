@@ -10,4 +10,3 @@ public interface Action {
     void doAction(List<Book> booksBase, List<User> usersBase);
 
 }
-//

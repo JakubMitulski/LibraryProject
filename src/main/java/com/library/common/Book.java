@@ -38,7 +38,6 @@ public class Book implements Serializable {
 
     @Override
     public String toString() {
-        return "Title: " + title + ", Author: " + getAuthor() + ", Amount: " + amount;
+        return "Title: " + title + ", Author: " + getAuthor() + ", Amount on stock: " + amount;
     }
 }
-//

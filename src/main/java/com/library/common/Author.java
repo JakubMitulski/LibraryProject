@@ -2,12 +2,12 @@ package com.library.common;
 
 import java.io.Serializable;
 
-public class Author implements Serializable{
+public class Author implements Serializable {
 
     public String firstName;
     public String lastName;
 
-    public Author(String firstName, String lastName){
+    public Author(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -27,7 +27,4 @@ public class Author implements Serializable{
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
-
-
 }
-//

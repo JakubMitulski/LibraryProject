@@ -1,5 +1,6 @@
-package com.library.actions;
+package com.library.actions.user;
 
+import com.library.actions.Action;
 import com.library.common.Book;
 import com.library.common.User;
 
@@ -21,4 +22,3 @@ public class SaveUsersBaseAction implements Action {
         }
     }
 }
-//
