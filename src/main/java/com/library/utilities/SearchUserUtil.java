@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.library.utilities;
 
 import com.library.common.User;
 

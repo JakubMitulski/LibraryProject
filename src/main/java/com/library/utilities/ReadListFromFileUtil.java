@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.library.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -19,7 +19,7 @@ public class ReadListFromFileUtil {
         } catch (IOException ignored) {
 
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("Occurred an error with reading from file");
         }
         return list;
     }

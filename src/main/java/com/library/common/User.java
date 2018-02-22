@@ -18,29 +18,17 @@ public class User implements Serializable {
         return userFirstName;
     }
 
-    public void setUserFirstName(String userFirstName) {
-        this.userFirstName = userFirstName;
-    }
-
     public String getUserLastName() {
         return userLastName;
-    }
-
-    public void setUserLastName(String userLastName) {
-        this.userLastName = userLastName;
     }
 
     public Integer getUserId() {
         return userId;
     }
 
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
     @Override
     public String toString() {
-        return "User " + userFirstName + ", " + userLastName + ", Id: " + userId;
+        return "User: " + userFirstName + ", " + userLastName + ", Id: " + userId;
     }
 }
 

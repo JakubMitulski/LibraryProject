@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.library.utilities;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -13,7 +13,7 @@ public class SaveListToFileUtil {
             oos.writeObject(list);
             fout.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Occurred an error with saving to file");
         }
     }
 }

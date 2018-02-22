@@ -1,4 +1,4 @@
-package com.library.utils;
+package com.library.utilities;
 
 import java.util.List;
 

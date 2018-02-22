@@ -1,5 +1,7 @@
 package com.library.common;
 
+import com.library.utilities.DateAndTimeUtil;
+
 import java.io.Serializable;
 
 public class Book implements Serializable {
@@ -7,6 +9,7 @@ public class Book implements Serializable {
     private Author author;
     private String title;
     private Integer amount;
+    private String currDateAndTime;
 
     public Book(String title, String firstName, String lastName, Integer amount) {
         this.title = title;
@@ -14,10 +17,11 @@ public class Book implements Serializable {
         this.author = new Author(firstName, lastName);
     }
 
-    public Book(String title, String firstNameOne, String lastNameOne, String firstNameTwo, String lastNameTwo, Integer amount) {
-        this.title = title;
-        this.amount = amount;
-        this.author = new Author(firstNameOne, lastNameOne);
+    public Book(Book book) {
+        this.title = book.getTitle();
+        this.amount = book.getAmount();
+        this.author = new Author(book.getAuthorFirstName(), book.getAuthorLastName());
+        this.currDateAndTime = DateAndTimeUtil.currDateAndTime();
     }
 
     public String getTitle() {
@@ -34,6 +38,18 @@ public class Book implements Serializable {
 
     public String getAuthor() {
         return author.firstName + " " + author.lastName;
+    }
+
+    public String getAuthorFirstName() {
+        return author.firstName;
+    }
+
+    public String getAuthorLastName() {
+        return author.lastName;
+    }
+
+    public String getCurrDateAndTime() {
+        return currDateAndTime;
     }
 
     @Override

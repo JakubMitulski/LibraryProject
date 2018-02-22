@@ -3,23 +3,23 @@ package com.library.actions.book;
 import com.library.actions.Action;
 import com.library.common.Book;
 import com.library.common.User;
-import com.library.utils.SearchBookUtil;
+import com.library.utilities.ReadUserInputUtil;
+import com.library.utilities.SaveListToFileUtil;
+import com.library.utilities.SearchBookUtil;
 
 import java.util.List;
-import java.util.Scanner;
 
 public class RemoveBookAction implements Action {
     @Override
     public void doAction(List<Book> booksBase, List<User> usersBase) throws NullPointerException {
-        Scanner sc = new Scanner(System.in);
         System.out.println("Type the book title to remove from books base: ");
-        String searchedTitle = sc.nextLine();
+        String searchedTitle = ReadUserInputUtil.userString();
         Book book = SearchBookUtil.searchBook(booksBase, searchedTitle);
         if (book != null) {
             booksBase.remove(book);
             System.out.println(book.getTitle() + " removed from the database.");
-            new SaveBooksBaseAction().doAction(booksBase, usersBase);
-        } else{
+            SaveListToFileUtil.saveToFile(booksBase, "booksBase.tmp");
+        } else {
             System.out.println("Wrong title!");
         }
     }
