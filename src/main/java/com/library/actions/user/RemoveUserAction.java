@@ -1,3 +1,10 @@
+/**
+ * RemoveUserAction.java
+ * Purpose: removing user from base who are be able to borrow books from library;
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions.user;
 
 import com.library.actions.Action;

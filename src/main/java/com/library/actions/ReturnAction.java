@@ -1,3 +1,10 @@
+/**
+ * ReturnAction.java
+ * Purpose: allows to return book by specific user by removing Book instance from his own user base file.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions;
 
 import com.library.common.Book;

@@ -1,3 +1,10 @@
+/**
+ * ReadListFromFileUtil.java
+ * Purpose: reading objects written in a file and putting them into a list.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.utilities;
 
 import java.io.FileInputStream;

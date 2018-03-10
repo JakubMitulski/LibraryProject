@@ -1,3 +1,10 @@
+/**
+ * SearchBookAction.java
+ * Purpose: searching for specific book-position in a books base file.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions.book;
 
 import com.library.actions.Action;

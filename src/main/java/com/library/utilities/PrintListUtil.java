@@ -1,3 +1,10 @@
+/**
+ * PrintListUtil.java
+ * Purpose: Printing all elements from given list.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.utilities;
 
 import java.util.List;

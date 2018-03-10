@@ -1,3 +1,10 @@
+/**
+ * PrintUserBooksAction.java
+ * Purpose: printing a list of user's borrowed books.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions.user;
 
 import com.library.actions.Action;

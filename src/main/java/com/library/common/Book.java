@@ -1,3 +1,10 @@
+/**
+ * Book.java
+ * Purpose: pattern to creating Book objects.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.common;
 
 import com.library.utilities.DateAndTimeUtil;

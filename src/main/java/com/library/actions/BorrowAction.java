@@ -1,3 +1,10 @@
+/**
+ * BorrowAction.java
+ * Purpose: allows user to borrow book from library by creating a new Book instance which is later saved on a list in specific user base file.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions;
 
 import com.library.common.Book;

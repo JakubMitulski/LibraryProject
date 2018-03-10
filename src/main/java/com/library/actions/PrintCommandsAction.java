@@ -1,3 +1,10 @@
+/**
+ * PrintCommandAction.java
+ * Purpose: printing a list of commands for available functions in a program.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions;
 
 import com.library.common.Book;

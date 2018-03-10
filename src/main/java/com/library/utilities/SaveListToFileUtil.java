@@ -1,3 +1,11 @@
+/**
+ * SaveListToFileUtil.java
+ * Purpose: saving list of objects to file.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
+
 package com.library.utilities;
 
 import java.io.FileOutputStream;

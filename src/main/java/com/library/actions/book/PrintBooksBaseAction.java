@@ -1,3 +1,10 @@
+/**
+ * PrintBooksBaseAction.java
+ * Purpose: saving books in a base file, which are able to be borrowed from library.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions.book;
 
 import com.library.actions.Action;

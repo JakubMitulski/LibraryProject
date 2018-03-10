@@ -1,3 +1,10 @@
+/**
+ * AddUserAction.java
+ * Purpose: adding new user to the base who will be able to borrow books from library; creating individual user base file.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions.user;
 
 import com.library.actions.Action;

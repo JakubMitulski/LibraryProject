@@ -1,3 +1,10 @@
+/**
+ * AddBookAction.java
+ * Purpose: adding new book to the base which will be able to be borrowed from library by user.
+ *
+ * @version 1.0 23/02/2018
+ * @author Jakub Mitulski
+ */
 package com.library.actions.book;
 
 import com.library.actions.Action;
